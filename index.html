@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en" ng-app="numericodeApp">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" /> -->
+    <!-- <link rel="stylesheet" href="app.css" /> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <!-- <script src="app.js"></script> -->
+    <script src="app.js"></script>
+  </head>
+  <body ng-controller="numericodeController">
+    <ul>
+      <input ng-Model = "userInput"/>
+      <button ng-click="decode()">Decode your input!</button>
+        <p>{{output}}</p>
+    </ul>
+
+  </body>
+</html>
